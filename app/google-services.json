@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403255211969",
+    "project_id": "tietsurveyapp",
+    "storage_bucket": "tietsurveyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403255211969:android:b364ef24067abefcba2140",
+        "android_client_info": {
+          "package_name": "com.tiet.surveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403255211969-su0iuea4u2m13istd5cal16fvf23ao7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD1n5X_Q80ileF6JBhB4wwgs0kSxzHTFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403255211969-su0iuea4u2m13istd5cal16fvf23ao7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

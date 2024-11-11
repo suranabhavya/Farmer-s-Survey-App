@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cordinate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklySurveyForm.BeforePlantation">
+    <!-- new_user_form_activity.xml -->
+    <ernestoyaquello.com.verticalstepperform.VerticalStepperFormView
+        android:id="@+id/stepper_form4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:form_circle_background_color="@color/primary"
+        app:form_next_button_background_color="@color/secondary"
+        app:form_next_button_pressed_background_color="@color/tertiary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

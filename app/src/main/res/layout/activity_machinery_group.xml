@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklySurveyForm.CommonGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did you use any machinery in the plot this week?" />
+
+        <RadioGroup
+            android:id="@+id/rg8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What kind of machinery did you use?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bulls" />
+
+            <RadioButton
+                android:id="@+id/radioButton47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tractor" />
+
+            <RadioButton
+                android:id="@+id/radioButton48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plow" />
+
+            <RadioButton
+                android:id="@+id/radioButton49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spray Machine" />
+
+            <RadioButton
+                android:id="@+id/radioButton50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultivator" />
+
+            <RadioButton
+                android:id="@+id/radioButton51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotavator" />
+
+            <RadioButton
+                android:id="@+id/radioButton52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone"
+                android:hint="If other, specify kind of machinery used" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextNumber7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="For how many hours was machinery used in the plot this week?"
+            android:inputType="number"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

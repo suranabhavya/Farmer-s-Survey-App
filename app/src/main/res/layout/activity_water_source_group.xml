@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommonGroup.Model.WaterSourceGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the nearest water source" />
+
+        <RadioGroup
+            android:id="@+id/rg24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None" />
+
+            <RadioButton
+                android:id="@+id/radioButton92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private open well" />
+
+            <RadioButton
+                android:id="@+id/radioButton93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared open well" />
+
+            <RadioButton
+                android:id="@+id/radioButton94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private bore well" />
+
+            <RadioButton
+                android:id="@+id/radioButton95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared bore well" />
+
+            <RadioButton
+                android:id="@+id/radioButton96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private Pond" />
+
+            <RadioButton
+                android:id="@+id/radioButton97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared Pond" />
+
+            <RadioButton
+                android:id="@+id/radioButton98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lake" />
+
+            <RadioButton
+                android:id="@+id/radioButton99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="River" />
+
+            <RadioButton
+                android:id="@+id/radioButton100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stream" />
+
+            <RadioButton
+                android:id="@+id/radioButton101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Distance between water source and the plot (in meters):" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

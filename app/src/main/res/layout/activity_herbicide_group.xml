@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklySurveyForm.CommonGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did you use any herbicide this week?" />
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the name of herbicides used?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Surakksha" />
+
+            <RadioButton
+                android:id="@+id/radioButton36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topik" />
+
+            <RadioButton
+                android:id="@+id/radioButton37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPL" />
+
+            <RadioButton
+                android:id="@+id/radioButton38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="If other, specify name of the herbicide used" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the herbicide measuring unit?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kilo Grams" />
+
+            <RadioButton
+                android:id="@+id/radioButton40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grams" />
+
+            <RadioButton
+                android:id="@+id/radioButton41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Litres" />
+
+            <RadioButton
+                android:id="@+id/radioButton42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Milli Litres" />
+
+            <RadioButton
+                android:id="@+id/radioButton43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="If other, specify the measuring unit"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="What is the bag volume of the herbicide used?"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextNumber6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="How many bags did you use?"
+            android:inputType="number"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

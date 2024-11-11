@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/image_sample"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cardimage"
+                app:srcCompat="@drawable/cardimage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Survey Forms"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available forms"
+                    android:textColor="#555" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/weekly_forrm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Farmer's Profile"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/weekly_forrm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weekly Survey 1"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/weekly_forrm3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weekly Survey 2"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/weekly_forrm4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plot Tracker Form"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/weekly_forrm5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crop Disease Form"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/weekly_forrm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Take Farm's Pic"
+                    android:theme="@style/Widget.AppCompat.Button" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

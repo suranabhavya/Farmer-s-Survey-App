@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommonGroup.Model.PlotDripGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="For how long have you been using drips (in years)?" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company of drips system:" />
+
+        <RadioGroup
+            android:id="@+id/rg21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Netafim" />
+
+            <RadioButton
+                android:id="@+id/radioButton73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rivulis" />
+
+            <RadioButton
+                android:id="@+id/radioButton74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jain" />
+
+            <RadioButton
+                android:id="@+id/radioButton75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain" />
+
+            <RadioButton
+                android:id="@+id/radioButton76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="If other, please specify" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

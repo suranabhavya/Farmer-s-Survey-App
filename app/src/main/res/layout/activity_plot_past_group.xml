@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommonGroup.Model.PlotPastGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What kind of crop do you plan to grow, as the main crop, in the main plot this season?" />
+
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/crops"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What kind of crop was grown in the plot in the PREVIOUS season?" />
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/crops"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What was the method of irrigation during the previous season?" />
+
+        <RadioGroup
+            android:id="@+id/rg22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None" />
+
+            <RadioButton
+                android:id="@+id/radioButton78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manually (with bucket)" />
+
+            <RadioButton
+                android:id="@+id/radioButton79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flooding" />
+
+            <RadioButton
+                android:id="@+id/radioButton80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flooding (furrows)" />
+
+            <RadioButton
+                android:id="@+id/radioButton81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sprinklers" />
+
+            <RadioButton
+                android:id="@+id/radioButton82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drips" />
+
+            <RadioButton
+                android:id="@+id/radioButton83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What kind of crop was grown in the plot TWO seasons ago?" />
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/crops"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method of irrigation TWO seasons ago:" />
+
+        <RadioGroup
+            android:id="@+id/rg23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None" />
+
+            <RadioButton
+                android:id="@+id/radioButton85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manually (with bucket)" />
+
+            <RadioButton
+                android:id="@+id/radioButton86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flooding" />
+
+            <RadioButton
+                android:id="@+id/radioButton87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flooding (furrows)" />
+
+            <RadioButton
+                android:id="@+id/radioButton88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sprinklers" />
+
+            <RadioButton
+                android:id="@+id/radioButton89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drips" />
+
+            <RadioButton
+                android:id="@+id/radioButton90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

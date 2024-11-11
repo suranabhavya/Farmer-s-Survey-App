@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommonGroup.Model.MarketingGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did you sell any produce this week?" />
+
+        <RadioGroup
+            android:id="@+id/rg28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="How many Kg's did you sell this week?"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To whom did you sell your produce?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directly to the customer in the village market" />
+
+            <RadioButton
+                android:id="@+id/radioButton114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directly to the customer in the city market" />
+
+            <RadioButton
+                android:id="@+id/radioButton115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To vendor in the market" />
+
+            <RadioButton
+                android:id="@+id/radioButton116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To vendor in the village" />
+
+            <RadioButton
+                android:id="@+id/radioButton117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify..."
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="What was the total cost of transportation of the harvested yield to the market? (if none, write 0)"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did you sell all your produce at the same price?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the reason for the price difference?"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radioButton120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Different quality of the produce" />
+
+            <RadioButton
+                android:id="@+id/radioButton121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selling time (in the same day)" />
+
+            <RadioButton
+                android:id="@+id/radioButton122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Different days of selling" />
+
+            <RadioButton
+                android:id="@+id/radioButton123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Different selling places" />
+
+            <RadioButton
+                android:id="@+id/radioButton124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="If other, please specify..."
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="What was the price for 1 kg (Rs) (average)?"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="What was the total revenue from the crop this week?"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
